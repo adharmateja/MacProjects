@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4601255C21F8558400B351C2 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4601255B21F8558400B351C2 /* b.png */; };
-		4601256421F856DC00B351C2 /* ENTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4601255F21F856DB00B351C2 /* ENTabCell.m */; };
-		4601256521F856DC00B351C2 /* ENTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4601256121F856DC00B351C2 /* ENTabBarView.m */; };
-		4601256621F856DC00B351C2 /* ENTabImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4601256221F856DC00B351C2 /* ENTabImage.m */; };
 		460FB907228F0987001BE5DD /* mdm-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 460FB906228F0987001BE5DD /* mdm-icon.icns */; };
+		4647EDBB229D97FB00A3B61A /* ENTabImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4647EDB5229D97FA00A3B61A /* ENTabImage.m */; };
+		4647EDBC229D97FB00A3B61A /* ENTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4647EDB8229D97FB00A3B61A /* ENTabBarView.m */; };
+		4647EDBD229D97FB00A3B61A /* ENTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4647EDB9229D97FB00A3B61A /* ENTabCell.m */; };
 		46676E8521F60FB900A8408A /* CustomView_Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 46676E8421F60FB900A8408A /* CustomView_Colors.m */; };
 		46A5A9242105E899004AE187 /* MDMPolicyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A5A9222105E899004AE187 /* MDMPolicyController.m */; };
 		46A5A9252105E899004AE187 /* MDMPolicyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A5A9232105E899004AE187 /* MDMPolicyController.xib */; };
@@ -62,13 +62,13 @@
 
 /* Begin PBXFileReference section */
 		4601255B21F8558400B351C2 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
-		4601255E21F856DB00B351C2 /* ENTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabBarView.h; sourceTree = "<group>"; };
-		4601255F21F856DB00B351C2 /* ENTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabCell.m; sourceTree = "<group>"; };
-		4601256021F856DB00B351C2 /* ENTabImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabImage.h; sourceTree = "<group>"; };
-		4601256121F856DC00B351C2 /* ENTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabBarView.m; sourceTree = "<group>"; };
-		4601256221F856DC00B351C2 /* ENTabImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabImage.m; sourceTree = "<group>"; };
-		4601256321F856DC00B351C2 /* ENTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabCell.h; sourceTree = "<group>"; };
 		460FB906228F0987001BE5DD /* mdm-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "mdm-icon.icns"; sourceTree = "<group>"; };
+		4647EDB5229D97FA00A3B61A /* ENTabImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabImage.m; sourceTree = "<group>"; };
+		4647EDB6229D97FA00A3B61A /* ENTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabBarView.h; sourceTree = "<group>"; };
+		4647EDB7229D97FB00A3B61A /* ENTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabCell.h; sourceTree = "<group>"; };
+		4647EDB8229D97FB00A3B61A /* ENTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabBarView.m; sourceTree = "<group>"; };
+		4647EDB9229D97FB00A3B61A /* ENTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabCell.m; sourceTree = "<group>"; };
+		4647EDBA229D97FB00A3B61A /* ENTabImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabImage.h; sourceTree = "<group>"; };
 		46676E8321F60FB900A8408A /* CustomView_Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView_Colors.h; sourceTree = "<group>"; };
 		46676E8421F60FB900A8408A /* CustomView_Colors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView_Colors.m; sourceTree = "<group>"; };
 		46A5A9212105E899004AE187 /* MDMPolicyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMPolicyController.h; sourceTree = "<group>"; };
@@ -155,15 +155,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4601255D21F856C500B351C2 /* TabBar */ = {
+		4647EDB4229D97C800A3B61A /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				4601255E21F856DB00B351C2 /* ENTabBarView.h */,
-				4601256121F856DC00B351C2 /* ENTabBarView.m */,
-				4601256321F856DC00B351C2 /* ENTabCell.h */,
-				4601255F21F856DB00B351C2 /* ENTabCell.m */,
-				4601256021F856DB00B351C2 /* ENTabImage.h */,
-				4601256221F856DC00B351C2 /* ENTabImage.m */,
+				4647EDB6229D97FA00A3B61A /* ENTabBarView.h */,
+				4647EDB8229D97FB00A3B61A /* ENTabBarView.m */,
+				4647EDB7229D97FB00A3B61A /* ENTabCell.h */,
+				4647EDB9229D97FB00A3B61A /* ENTabCell.m */,
+				4647EDBA229D97FB00A3B61A /* ENTabImage.h */,
+				4647EDB5229D97FA00A3B61A /* ENTabImage.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -181,7 +181,6 @@
 		46B935C720F548840016625D = {
 			isa = PBXGroup;
 			children = (
-				4601255D21F856C500B351C2 /* TabBar */,
 				46B935D220F548840016625D /* MDMConsole */,
 				46B935D120F548840016625D /* Products */,
 			);
@@ -198,6 +197,7 @@
 		46B935D220F548840016625D /* MDMConsole */ = {
 			isa = PBXGroup;
 			children = (
+				4647EDB4229D97C800A3B61A /* TabBar */,
 				46DF2CE9210865C100734B29 /* Categories */,
 				46DF2CE8210865B900734B29 /* Protocols */,
 				46E46C8E20FA3E86004E9F8D /* ThirdParty */,
@@ -431,15 +431,14 @@
 			files = (
 				46E46C9120FA3E97004E9F8D /* IDGroundView.m in Sources */,
 				46B935DD20F548840016625D /* main.m in Sources */,
-				4601256421F856DC00B351C2 /* ENTabCell.m in Sources */,
-				4601256521F856DC00B351C2 /* ENTabBarView.m in Sources */,
 				46A5A9242105E899004AE187 /* MDMPolicyController.m in Sources */,
+				4647EDBC229D97FB00A3B61A /* ENTabBarView.m in Sources */,
 				46E46C9C20FA7865004E9F8D /* NSWindow+CustomTitlebar.m in Sources */,
 				46DF2CDC2108652B00734B29 /* MDMScriptsViewController.m in Sources */,
-				4601256621F856DC00B351C2 /* ENTabImage.m in Sources */,
 				46E5A07F21145F8800B13071 /* SFTabView.m in Sources */,
 				46DF2CE62108655400734B29 /* MDMConfigurationProfilesViewController.m in Sources */,
 				46B9360E20F7F6510016625D /* winBGView.m in Sources */,
+				4647EDBD229D97FB00A3B61A /* ENTabCell.m in Sources */,
 				46E46C9920FA76F5004E9F8D /* IDMainWindow.m in Sources */,
 				46676E8521F60FB900A8408A /* CustomView_Colors.m in Sources */,
 				46E46C9420FA7568004E9F8D /* IDTabView.m in Sources */,
@@ -453,6 +452,7 @@
 				46E46C8720FA393E004E9F8D /* MDMTabViewController.m in Sources */,
 				46BDB61D20FBD327009FD29B /* MDMOutlineView.m in Sources */,
 				46B935E620F54DA70016625D /* MDMMainController.m in Sources */,
+				4647EDBB229D97FB00A3B61A /* ENTabImage.m in Sources */,
 				46B9360120F632D10016625D /* ServicesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
