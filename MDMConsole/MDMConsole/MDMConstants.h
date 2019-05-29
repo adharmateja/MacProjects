@@ -10,7 +10,7 @@
 #define MDMConstants_h
 //Begin: For WEBSERVICE URL
 #define kCheckLoginCount @"http:localhost:8080/MDMConsoleSever/REST/RegService/regCount"
-#define kRegisterAdminAccount @"http:localhost:8080/MDMConsoleSeverMDMConsoleSever/REST/RegService/registerAdminAccount"
+#define kRegisterAdminAccount @"http:localhost:8080/MDMConsoleSever/REST/RegService/registerAdminAccount"
 #define kTest @"test"
 
 
