@@ -19,8 +19,12 @@
 @synthesize policyTabView;
 @synthesize number;
 @synthesize tabBarView;
-
+@synthesize optionsButton;
+@synthesize scopeLine,optionLine,selfServiceLine;
 - (void)viewDidLoad{
+[self.optionLine setHidden:YES];
+[self.scopeLine setHidden:YES];
+[self.selfServiceLine setHidden:YES];
 
 [super viewDidLoad];
 
@@ -57,5 +61,32 @@ number = 2;
 //[self.view addSubview:self.displayPolices];
 [[self.policyTabView tabViewItemAtIndex:1]setView:self.addPolicyView];
 [[self.policyTabView tabViewItemAtIndex:0]setView:self.displayPolices];
+}
+
+-(IBAction)optionsTabs:(id)sender
+{
+[self.optionLine setHidden:NO];
+[self.scopeLine setHidden:YES];
+[self.selfServiceLine setHidden:YES];
+
+NSLog(@"options");
+}
+
+-(IBAction)scopeTab:(id)sender
+{
+[self.scopeLine setHidden:NO];
+[self.optionLine setHidden:YES];
+[self.selfServiceLine setHidden:YES];
+
+NSLog(@"scope Tab");
+}
+
+-(IBAction)selfServiceTab:(id)sender
+{
+[self.selfServiceLine setHidden:NO];
+[self.scopeLine setHidden:YES];
+[self.optionLine setHidden:YES];
+
+NSLog(@"Self Service TAb");
 }
 @end

@@ -22,11 +22,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053375"
+            timestampString = "580850438.063665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053434"
+            timestampString = "580850438.063743"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.05349"
+            timestampString = "580850438.063821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.05353"
+            timestampString = "580850438.063877"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053568"
+            timestampString = "580850438.06393"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.05361"
+            timestampString = "580850438.063984"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -134,11 +134,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053647"
+            timestampString = "580850438.064034"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053683"
+            timestampString = "580850438.064086"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
@@ -166,11 +166,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053718"
+            timestampString = "580850438.064137"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/MDMTabViewController.m"
-            timestampString = "569925134.154927"
+            timestampString = "581419742.358609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/MDMTabViewController.m"
-            timestampString = "569925134.154989"
+            timestampString = "581419742.359107"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "205"
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/Policies/MDMPolicyController.m"
-            timestampString = "569933938.154485"
+            timestampString = "581422095.61686"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-viewWillAppear"
             landmarkType = "7">
          </BreakpointContent>
@@ -298,27 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/Policies/MDMPolicyController.m"
-            timestampString = "569933938.154628"
+            timestampString = "581422095.617311"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "-createNewPolicy:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MDMConsole/Policies/MDMPolicyController.m"
-            timestampString = "569933938.1546839"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/Policies/MDMPolicyController.m"
-            timestampString = "569933938.154781"
+            timestampString = "581422095.617609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "-awakeFromNib"
             landmarkType = "7">
          </BreakpointContent>
@@ -358,11 +342,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053859"
+            timestampString = "580850438.0643539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -371,14 +355,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[ServicesController callWSSynchronously:service:]"
                   moduleName = "MDMConsole"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dharmateja/Documents/Swift/Mac/MacProjects/MDMConsole/MDMConsole/ServicesController.m"
-                  timestampString = "580850152.467178"
+                  timestampString = "581420088.7509511"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "69"
@@ -386,14 +370,14 @@
                   offsetFromSymbolStart = "70">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__Block_byref_object_copy_"
                   moduleName = "MDMConsole"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dharmateja/Documents/Swift/Mac/MacProjects/MDMConsole/MDMConsole/ServicesController.m"
-                  timestampString = "580850152.469267"
+                  timestampString = "581420088.7527241"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "69"
@@ -401,14 +385,14 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__Block_byref_object_dispose_"
                   moduleName = "MDMConsole"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dharmateja/Documents/Swift/Mac/MacProjects/MDMConsole/MDMConsole/ServicesController.m"
-                  timestampString = "580850152.471145"
+                  timestampString = "581420088.75445"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "69"
@@ -421,16 +405,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMConsole/ServicesController.m"
-            timestampString = "580850152.053901"
+            timestampString = "580850438.064411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
             endingLineNumber = "77"
             landmarkName = "-callWSSynchronously:service:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MDMConsole/Policies/MDMPolicyController.m"
+            timestampString = "581422095.617924"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-createNewPolicy:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

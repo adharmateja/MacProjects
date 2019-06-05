@@ -10,7 +10,10 @@
             <connections>
                 <outlet property="addPolicyView" destination="kXt-Rr-rwJ" id="PhN-k3-X2g"/>
                 <outlet property="displayPolices" destination="kXD-lG-X7r" id="uth-8e-Nfz"/>
+                <outlet property="optionLine" destination="LMx-Lo-9Gt" id="nF5-LT-DyD"/>
                 <outlet property="policyTabView" destination="kfS-de-SIb" id="fIE-JT-A9B"/>
+                <outlet property="scopeLine" destination="11w-ze-Osd" id="mFO-fL-SwL"/>
+                <outlet property="selfServiceLine" destination="TvO-ns-aUn" id="Mu9-ls-UJb"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
@@ -199,11 +202,11 @@
             </constraints>
             <point key="canvasLocation" x="379.5" y="761"/>
         </customView>
-        <customView id="kXt-Rr-rwJ" userLabel="Add" customClass="CustomView_Colors">
+        <customView wantsLayer="YES" id="kXt-Rr-rwJ" userLabel="Add" customClass="CustomView_Colors">
             <rect key="frame" x="0.0" y="0.0" width="1185" height="422"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <customView translatesAutoresizingMaskIntoConstraints="NO" id="vu6-Tz-dl4" customClass="CustomView_Colors">
+                <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vu6-Tz-dl4" customClass="CustomView_Colors">
                     <rect key="frame" x="0.0" y="379" width="1185" height="39"/>
                     <subviews>
                         <box horizontalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="thL-rq-m3N">
@@ -218,34 +221,58 @@
                             <rect key="frame" x="416" y="-2" width="5" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         </box>
-                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="teW-FQ-fdA">
-                            <rect key="frame" x="9" y="3" width="121" height="21"/>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYF-zj-cTz">
+                            <rect key="frame" x="11" y="3" width="113" height="23"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="bevel" title="Options" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="Jsp-5l-QNj">
+                            <buttonCell key="cell" type="bevel" title="Options" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="mje-op-U8x">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
+                            <connections>
+                                <action selector="optionsTabs:" target="-2" id="Lsv-fo-O0g"/>
+                            </connections>
                         </button>
-                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hD4-ia-nLw">
-                            <rect key="frame" x="143" y="-2" width="133" height="32"/>
+                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="LMx-Lo-9Gt">
+                            <rect key="frame" x="48" y="0.0" width="40" height="5"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="bevel" title="Scope" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="IS6-bS-4gh">
+                        </box>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WMN-AL-uRn">
+                            <rect key="frame" x="153" y="-1" width="113" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="Scope" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="FR3-Il-VgE">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
+                            <connections>
+                                <action selector="scopeTab:" target="-2" id="eXf-8P-iNz"/>
+                            </connections>
                         </button>
-                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O2d-Gt-6F5">
-                            <rect key="frame" x="284" y="-1" width="133" height="32"/>
+                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="11w-ze-Osd">
+                            <rect key="frame" x="190" y="0.0" width="40" height="5"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            <buttonCell key="cell" type="bevel" title="Self Service" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="M41-dX-7BT">
+                        </box>
+                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="USy-O2-wJt">
+                            <rect key="frame" x="294" y="-2" width="113" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="bevel" title="Self service" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" id="eub-Qq-HQB">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
+                            <connections>
+                                <action selector="selfServiceTab:" target="-2" id="yvx-kv-4eu"/>
+                            </connections>
                         </button>
+                        <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="TvO-ns-aUn">
+                            <rect key="frame" x="331" y="0.0" width="40" height="5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        </box>
                     </subviews>
                 </customView>
                 <tabView type="noTabsBezelBorder" translatesAutoresizingMaskIntoConstraints="NO" id="Ixw-pD-sN1">
                     <rect key="frame" x="-4" y="-4" width="1193" height="385"/>
+                    <shadow key="shadow">
+                        <color key="color" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                    </shadow>
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
                         <tabViewItem label="TEST" identifier="" image="b.png" id="dav-nt-nvt">
@@ -290,6 +317,26 @@
             </segmentedCell>
             <point key="canvasLocation" x="672.5" y="1603.5"/>
         </segmentedControl>
+        <tabView id="Psc-vT-3pF">
+            <rect key="frame" x="0.0" y="0.0" width="1069" height="429"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <font key="font" metaFont="system"/>
+            <tabViewItems>
+                <tabViewItem label="Tab" identifier="" id="iuL-Yr-ulV">
+                    <view key="view" id="Tdj-Vi-miG">
+                        <rect key="frame" x="10" y="33" width="1049" height="383"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </tabViewItem>
+                <tabViewItem label="View" identifier="" id="iU7-z5-Dwq">
+                    <view key="view" id="cu4-sU-4gd">
+                        <rect key="frame" x="10" y="33" width="1049" height="383"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </tabViewItem>
+            </tabViewItems>
+            <point key="canvasLocation" x="581.5" y="1726.5"/>
+        </tabView>
     </objects>
     <resources>
         <image name="b.png" width="128" height="128"/>
