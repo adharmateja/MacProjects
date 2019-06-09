@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4601255C21F8558400B351C2 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4601255B21F8558400B351C2 /* b.png */; };
+		46047DCC22AD89E90037F592 /* MDMNewPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46047DCB22AD89E90037F592 /* MDMNewPolicy.m */; };
 		460FB907228F0987001BE5DD /* mdm-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 460FB906228F0987001BE5DD /* mdm-icon.icns */; };
 		4647EDBB229D97FB00A3B61A /* ENTabImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4647EDB5229D97FA00A3B61A /* ENTabImage.m */; };
 		4647EDBC229D97FB00A3B61A /* ENTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4647EDB8229D97FB00A3B61A /* ENTabBarView.m */; };
@@ -62,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		4601255B21F8558400B351C2 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		46047DCA22AD89E90037F592 /* MDMNewPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMNewPolicy.h; sourceTree = "<group>"; };
+		46047DCB22AD89E90037F592 /* MDMNewPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMNewPolicy.m; sourceTree = "<group>"; };
 		460FB906228F0987001BE5DD /* mdm-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "mdm-icon.icns"; sourceTree = "<group>"; };
 		4647EDB5229D97FA00A3B61A /* ENTabImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabImage.m; sourceTree = "<group>"; };
 		4647EDB6229D97FA00A3B61A /* ENTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabBarView.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				46A5A9212105E899004AE187 /* MDMPolicyController.h */,
 				46A5A9222105E899004AE187 /* MDMPolicyController.m */,
 				46A5A9232105E899004AE187 /* MDMPolicyController.xib */,
+				46047DCA22AD89E90037F592 /* MDMNewPolicy.h */,
+				46047DCB22AD89E90037F592 /* MDMNewPolicy.m */,
 			);
 			path = Policies;
 			sourceTree = "<group>";
@@ -452,6 +457,7 @@
 				46E46C8720FA393E004E9F8D /* MDMTabViewController.m in Sources */,
 				46BDB61D20FBD327009FD29B /* MDMOutlineView.m in Sources */,
 				46B935E620F54DA70016625D /* MDMMainController.m in Sources */,
+				46047DCC22AD89E90037F592 /* MDMNewPolicy.m in Sources */,
 				4647EDBB229D97FB00A3B61A /* ENTabImage.m in Sources */,
 				46B9360120F632D10016625D /* ServicesController.m in Sources */,
 			);

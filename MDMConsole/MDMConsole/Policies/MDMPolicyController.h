@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "SFTabView.h"
 #import "ENTabBarView.h"
-
+#import "MDMNewPolicy.h"
 @interface MDMPolicyController : NSViewController<ENTabBarViewDelegate>
 
 @property(readwrite,weak)IBOutlet NSView *addPolicyView;
@@ -24,6 +24,9 @@
 @property(readwrite,weak)IBOutlet NSBox *selfServiceLine;
 
 @property(readwrite)NSInteger number;
+
+@property(readwrite)MDMNewPolicy *nPolicy;
+
 -(IBAction)createNewPolicy:(id)sender;
 - (IBAction)newTab:(id)sender;
 - (IBAction)setDefaultTheme:(id)sender;

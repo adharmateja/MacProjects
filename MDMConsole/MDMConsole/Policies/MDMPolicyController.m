@@ -21,11 +21,11 @@
 @synthesize tabBarView;
 @synthesize optionsButton;
 @synthesize scopeLine,optionLine,selfServiceLine;
+@synthesize nPolicy;
 - (void)viewDidLoad{
 [self.optionLine setHidden:YES];
 [self.scopeLine setHidden:YES];
 [self.selfServiceLine setHidden:YES];
-
 [super viewDidLoad];
 
 
@@ -38,7 +38,11 @@
 }
 -(IBAction)createNewPolicy:(id)sender
 {
-
+ if(self.nPolicy!=nil)
+ {
+ self.nPolicy = nil;
+ }
+self.nPolicy = [[MDMNewPolicy alloc]init];
 //[self.view replaceSubview:self.displayPolices with:self.addPolicyView];
 //[[[self.view superview]superview]setNeedsDisplay:YES];
 
