@@ -27,6 +27,9 @@
 
 @property(readwrite)MDMNewPolicy *nPolicy;
 
+@property(readwrite,strong)IBOutlet NSMutableArray *policyTableArray;
+@property(readwrite,weak)IBOutlet NSTableView *policyTableView;
+@property(readwrite,weak)IBOutlet NSTabView *optionsTab;
 -(IBAction)createNewPolicy:(id)sender;
 - (IBAction)newTab:(id)sender;
 - (IBAction)setDefaultTheme:(id)sender;
