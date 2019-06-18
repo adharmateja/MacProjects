@@ -24,6 +24,7 @@
 @synthesize nPolicy;
 @synthesize policyTableArray;
 @synthesize optionsTab;
+@synthesize policyMainTab;
 - (void)viewDidLoad{
 [self.optionLine setHidden:YES];
 [self.scopeLine setHidden:YES];
@@ -72,6 +73,8 @@ self.policyTableArray = dummyPT;
 [self.policyTableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:YES];
 
 
+[[self.optionsTab layer]setBackgroundColor:(__bridge CGColorRef _Nullable)([NSColor whiteColor])];
+[[self.policyTabView layer]setBackgroundColor:(__bridge CGColorRef _Nullable)([NSColor whiteColor])];
 
 //[self.view replaceSubview:self.displayPolices with:self.addPolicyView];
 //[[[self.view superview]superview]setNeedsDisplay:YES];
@@ -81,6 +84,9 @@ number = 2;
 
 //[[self.policyTabView tabViewItemAtIndex:0]setView:self.displayPolices];
 [self.policyTabView selectTabViewItemAtIndex:1];
+[self.optionLine setHidden:NO];
+[self.scopeLine setHidden:YES];
+[self.selfServiceLine setHidden:YES];
 
 }
 
