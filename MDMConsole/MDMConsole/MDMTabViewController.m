@@ -156,7 +156,7 @@ BOOL hideUnreadIndicator = YES;
 if (index == 0) {
 // First row in the index
 hideUnreadIndicator = NO;
-[result.button setTitle:@"42"];
+//[result.button setTitle:@"42"];//Need to enable for policy count
 [result.button sizeToFit];
 // Make it appear as a normal label and not a button
 //[[result.button cell] setHighlightsBy:0];
@@ -169,7 +169,7 @@ result.button.target = self;
 // Make it appear as a button
 //[[result.button cell] setHighlightsBy:NSPushInCellMask|NSChangeBackgroundCellMask];
 }
-[result.button setHidden:hideUnreadIndicator];
+//[result.button setHidden:hideUnreadIndicator];//enable for policy count
 hideUnreadIndicator = NO;
 
 return result;

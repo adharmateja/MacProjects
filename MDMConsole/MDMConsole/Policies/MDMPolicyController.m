@@ -70,12 +70,10 @@ NSMutableDictionary *manAccount = [NSMutableDictionary dictionary];
 [dummyPT addObject:manAccount];
 
 self.policyTableArray = dummyPT;
-[self.policyTableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:YES];
-
 
 [[self.optionsTab layer]setBackgroundColor:(__bridge CGColorRef _Nullable)([NSColor whiteColor])];
 [[self.policyTabView layer]setBackgroundColor:(__bridge CGColorRef _Nullable)([NSColor whiteColor])];
-
+[self.policyTableView reloadData];
 //[self.view replaceSubview:self.displayPolices with:self.addPolicyView];
 //[[[self.view superview]superview]setNeedsDisplay:YES];
 
@@ -84,10 +82,13 @@ number = 2;
 
 //[[self.policyTabView tabViewItemAtIndex:0]setView:self.displayPolices];
 [self.policyTabView selectTabViewItemAtIndex:1];
+
 [self.optionLine setHidden:NO];
 [self.scopeLine setHidden:YES];
 [self.selfServiceLine setHidden:YES];
-
+[self.optionsTab selectTabViewItemAtIndex:0];
+[self.policyTableView deselectAll:nil];
+[self.policyTableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:YES];
 }
 
 - (void)viewWillAppear{
@@ -109,7 +110,7 @@ number = 2;
 [self.optionLine setHidden:NO];
 [self.scopeLine setHidden:YES];
 [self.selfServiceLine setHidden:YES];
-
+[self.policyMainTab selectTabViewItemAtIndex:0];
 NSLog(@"options");
 }
 
@@ -118,6 +119,7 @@ NSLog(@"options");
 [self.scopeLine setHidden:NO];
 [self.optionLine setHidden:YES];
 [self.selfServiceLine setHidden:YES];
+[self.policyMainTab selectTabViewItemAtIndex:1];
 
 NSLog(@"scope Tab");
 }
@@ -127,6 +129,7 @@ NSLog(@"scope Tab");
 [self.selfServiceLine setHidden:NO];
 [self.scopeLine setHidden:YES];
 [self.optionLine setHidden:YES];
+[self.policyMainTab selectTabViewItemAtIndex:2];
 
 NSLog(@"Self Service TAb");
 }
@@ -160,6 +163,5 @@ switch (selRow) {
      default:
      break;
 }
-
 }
 @end
